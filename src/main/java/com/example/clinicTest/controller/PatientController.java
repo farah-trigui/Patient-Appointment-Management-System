@@ -10,7 +10,6 @@ import com.example.clinicTest.service.PatientService;
 import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.PostMapping;
