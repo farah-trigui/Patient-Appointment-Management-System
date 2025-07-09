@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.example.clinicTest.entity.Patient;
 
 public interface PatientRepository extends JpaRepository<Patient, Long>{
-    boolean exitsByEmail(String email);
+    boolean existsByEmail(String email);
     
 }

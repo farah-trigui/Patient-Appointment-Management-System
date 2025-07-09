@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 
 public class Patient {
     @Id 
